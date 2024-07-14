@@ -1,0 +1,16 @@
+footer {
+    background-color: $background-header-footer;
+    text-align: center;
+    padding: 20px 0px;
+    max-width: 100%;
+    .social {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    img{
+        width: $max-width-img-footer;
+        height: auto;
+    }
+}

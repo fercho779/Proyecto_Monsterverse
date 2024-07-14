@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(/assest/fonts/Montserrat-SemiBold.ttf);
+}
+h1 {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 700;
+  font-size: 3em;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 700;
+  font-size: 2.5em;
+  color: white;
+}
+
+h3 {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 700;
+  font-size: 2em;
+  color: white;
+}
+
+p, a, li {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 400;
+  font-size: 1.2em;
+  color: white;
+}
+
+form h2, input, textarea, label {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 400;
+  font-size: 1.2em;
+  color: white;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px 0px;
+  max-width: 100%;
+}
+header h1 {
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+main {
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.hero-pages {
+  padding: 50px 0px;
+}
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px 0px;
+  max-width: 100%;
+}
+footer .social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer img {
+  width: 1.5em;
+  height: auto;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 120px 0px;
+  position: relative;
+  height: 35em;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.hero-container h2, .hero-container p {
+  margin: 0px 25px;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-capa-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
+/*# sourceMappingURL=main.css.map */

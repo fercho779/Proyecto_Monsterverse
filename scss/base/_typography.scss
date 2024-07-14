@@ -1,0 +1,32 @@
+h1{
+    font-family: $font-family-project;
+    font-weight: 700;
+    font-size: $font-size-title;
+    color: $color-text;
+}
+h2{
+    font-family: $font-family-project;
+    font-weight: 700;
+    font-size:$font-size-subtitle;
+    color: $color-text;
+}
+h3{
+    font-family: $font-family-project;
+    font-weight: 700;
+    font-size:$font-size-sub-subtitle;
+    color: $color-text;
+}
+p,a,li 
+{
+    font-family: $font-family-project;
+    font-weight: 400;
+    font-size: $font-size-text;
+    color: $color-text;
+}
+form h2,input,textarea,label
+{
+    font-family: $font-family-project;
+    font-weight: 400;
+    font-size: $font-size-text;
+    color: $color-text;
+}
