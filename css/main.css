@@ -65,10 +65,6 @@ main {
   width: 100%;
 }
 
-.hero-pages {
-  padding: 50px 0px;
-}
-
 footer {
   background-color: #1a1a1a;
   text-align: center;
@@ -135,6 +131,53 @@ video {
   background: #1c1c1d;
   opacity: 0.5;
   mix-blend-mode: overlay;
+}
+
+.card-hero-pages {
+  padding: 30px 20px;
+  text-align: center;
+  height: auto;
+}
+.card-hero-pages p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.card-hero-container {
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "foto" "descripcion";
+}
+.card-hero-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card-hero-foto {
+  grid-area: foto;
+}
+
+.card-hero-descripcion {
+  grid-area: descripcion;
+}
+
+@media (min-width: 1024px) {
+  .card-hero-container {
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "foto descripcion";
+  }
+  .card-hero-container .card-hero-descripcion {
+    align-self: center;
+  }
+  .card-hero-container .card-hero-descripcion h3 {
+    margin-left: 15px;
+    text-align: justify;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

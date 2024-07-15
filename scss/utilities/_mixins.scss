@@ -1,0 +1,9 @@
+@mixin respond-to($media){
+    @if $media == 'desktop'
+    {
+        @media(min-width: 1024px)
+        {
+            @content;
+        }
+    }
+}

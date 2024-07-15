@@ -1,4 +1,5 @@
 @import "utilities/variables";
+@import "utilities/mixins";
 @import "base/reset";
 @import "base/fonts";
 @import "base/typography";
@@ -6,4 +7,5 @@
 @import "layout/content";
 @import "layout/footer";
 @import "components/buttons";
-@import "views/inicio"
+@import "views/inicio";
+@import "views/sobre-monarch";
