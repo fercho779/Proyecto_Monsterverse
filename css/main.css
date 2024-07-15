@@ -11,35 +11,35 @@
 h1 {
   font-family: "Montserrat-SemiBold";
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3.5em;
   color: white;
 }
 
 h2 {
   font-family: "Montserrat-SemiBold";
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: white;
 }
 
 h3 {
   font-family: "Montserrat-SemiBold";
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.2em;
   color: white;
 }
 
 p, a, li {
   font-family: "Montserrat-SemiBold";
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: white;
 }
 
 form h2, input, textarea, label {
   font-family: "Montserrat-SemiBold";
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: white;
 }
 
