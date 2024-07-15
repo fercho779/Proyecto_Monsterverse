@@ -1,0 +1,16 @@
+.card-monsters{
+    background-color: $background-card;
+    padding: 10px;
+    border-radius: 15px;
+    width: auto;
+    text-align: center;
+    p{
+        text-align: justify;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+}
+

@@ -36,11 +36,18 @@ p, a, li {
   color: white;
 }
 
-form h2, input, textarea, label {
+form h2, label {
   font-family: "Montserrat-SemiBold";
   font-weight: 400;
   font-size: 1.5em;
   color: white;
+}
+
+input, textarea {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: black;
 }
 
 header {
@@ -81,6 +88,18 @@ footer img {
   height: auto;
 }
 
+.container-card {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 15px;
+}
+
+@media (min-width: 1024px) {
+  .container-card {
+    padding: 20px;
+  }
+}
 .boton {
   display: inline-block;
   margin-top: 20px;
@@ -178,6 +197,40 @@ video {
     margin-left: 15px;
     text-align: justify;
   }
+}
+.card-monsters {
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 15px;
+  width: auto;
+  text-align: center;
+}
+.card-monsters p {
+  text-align: justify;
+}
+.card-monsters img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact form input, .contact form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.contact form button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

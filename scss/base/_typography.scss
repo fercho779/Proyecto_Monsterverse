@@ -23,10 +23,16 @@ p,a,li
     font-size: $font-size-text;
     color: $color-text;
 }
-form h2,input,textarea,label
+form h2,label
 {
     font-family: $font-family-project;
     font-weight: 400;
     font-size: $font-size-text;
     color: $color-text;
+}
+input,textarea{
+    font-family: $font-family-project;
+    font-weight: 400;
+    font-size: $font-size-text;
+    color: $color-text-secondary;
 }
