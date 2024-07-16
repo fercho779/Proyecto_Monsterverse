@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_monsterverse",
+  "version": "1.0.0",
+  "description": "monsterverse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fercho779/Proyecto_Monsterverse.git"
+  },
+  "author": "fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fercho779/Proyecto_Monsterverse/issues"
+  },
+  "homepage": "https://github.com/fercho779/Proyecto_Monsterverse#readme"
+}
